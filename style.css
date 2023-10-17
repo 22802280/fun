@@ -12,7 +12,11 @@ body{
     font-size: 40px;
     color: rgb(239, 250, 83);
 }
+p{
+    font-size: 24px;
+}
 .tap{
     color: rgb(166, 228, 233);
     font-style: italic;
+    font-size: 14px;
 }
