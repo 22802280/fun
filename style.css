@@ -1,9 +1,19 @@
 *{
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
 }
+
 body{
     background-color: black;
+}
+
+.main{
+    background-image: url(https://camo.mmcdn.com/e2127b9c330cbe3bd3a31aeb6131a265d2097016/68747470733a2f2f692e696d6775722e636f6d2f3470394a344d4f2e706e67);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 .title{
     font-size: 100px;
@@ -19,4 +29,18 @@ p{
     color: rgb(166, 228, 233);
     font-style: italic;
     font-size: 14px;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+.left{
+    width: 1000px;
+    float: left;
+}
+.right{
+    width: 500px;
+    float: right;
 }
