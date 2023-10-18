@@ -17,10 +17,12 @@ body{
 }
 .title{
     font-size: 100px;
+    margin: 50px 0;
 }
 .subtitle{
     font-size: 40px;
     color: rgb(239, 250, 83);
+    margin-bottom: 40px;
 }
 p{
     font-size: 24px;
@@ -37,10 +39,86 @@ p{
 }
 
 .left{
-    width: 1000px;
+    width: 400px;
     float: left;
 }
 .right{
-    width: 500px;
+    margin-top: 100px;
+    width: 400px;
     float: right;
+}
+
+.right p{
+    margin-bottom: 20px;
+}
+
+.banana{
+    width: 150px;
+    transition: 0.7s;
+    margin-left: 50px;
+}
+
+.banana:hover{
+    width: 250px;
+}
+
+.photo{
+    transition: 0.5s;
+    filter: grayscale(1);
+}
+
+.photo:hover{
+    filter: grayscale(0);
+}
+
+
+.btn-link{
+    display: inline-block;
+
+    width: 300px;
+    height: 100px;
+    background-color: rgb(239, 250, 83);
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    
+    margin-top: 300px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.info{
+    height: 100vh;
+}
+
+.info-block{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.info-block h1{
+    font-size: 60px;
+    margin: 170px 0 50px 0;
+    color: rgb(239, 250, 83);
+}
+
+.info-block h3{
+    font-size: 35px;
+    margin: 30px 0;
+    color: rgb(240, 247, 135);
+}
+
+.info-block h3:hover{
+    color: rgb(239, 248, 114);
+}
+
+footer{
+    background-color: white;
+    color: black;
+    padding: 40px;
+}
+
+
+.footer-links a{
+    margin-right: 50px;
 }
